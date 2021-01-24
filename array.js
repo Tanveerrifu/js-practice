@@ -1,0 +1,10 @@
+var bag = ["khata", "kalam", "boi", "laptop"];
+var result = bag[3];
+var position = bag.indexOf('boi');
+bag[2] = "book";
+bag.push(10);
+bag.push(20);
+bag.unshift(30);
+bag.pop();
+console.log(bag.length);
+console.log(bag);
